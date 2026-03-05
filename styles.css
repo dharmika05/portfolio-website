@@ -1,0 +1,84 @@
+/* Smooth scrolling */
+html{
+scroll-behavior: smooth;
+}
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f4f4f4;
+}
+
+/* Header */
+header{
+background:#2c3e50;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+/* Navigation bar */
+nav{
+background:#34495e;
+text-align:center;
+padding:12px;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+font-size:16px;
+}
+
+nav a:hover{
+color:yellow;
+}
+
+/* Sections */
+section{
+background:white;
+margin:20px;
+padding:30px;
+border-radius:8px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+transition:0.4s;
+
+/* keeps section slightly lower so it appears centered */
+scroll-margin-top:120px;
+}
+
+/* Highlight when section is clicked */
+section:target{
+background:#e8f4ff;
+border-left:6px solid #3498db;
+}
+
+h2{
+color:#2c3e50;
+}
+
+ul{
+padding-left:20px;
+}
+
+/* Contact links */
+#contact a{
+text-decoration:none;
+color:#2c3e50;
+font-weight:bold;
+}
+
+#contact a:hover{
+color:#3498db;
+}
+
+/* Footer */
+footer{
+background:#2c3e50;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:20px;
+}
